@@ -1,0 +1,42 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args)
+    {
+      Scanner sc = new Scanner(System.in);
+      int date = sc.nextInt();
+
+      if(date==1)
+      {
+        System.out.print("Monday");
+      }
+      else if(date==2)
+      {
+        System.out.print("Tuesday");
+      }
+      else if(date==3)
+      {
+        System.out.print("Wednesday");
+      }
+      else if(date==4)
+      {
+        System.out.print("Thursday");
+      }
+      else if(date==5)
+      {
+        System.out.print("Friday");
+      }
+      else if(date==6)
+      {
+        System.out.print("Saturday");
+      }
+      else if(date ==7)
+      {
+        System.out.print("Sunday");
+      }
+      else
+      {
+        System.out.print("Enter valid date");
+      }
+    }
+}
